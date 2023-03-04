@@ -607,7 +607,7 @@ display: flex;
     transition: border-color var(--transition);
 }
 
-.modal-form-input:hover, .modal-form-input:focus{
+.modal-form-input:focus{
     border-color: var(--background-color-button-index);
 
 }
@@ -620,7 +620,7 @@ display: flex;
     transition: fill var(--transition);
 }
  
-.modal-form-input:hover + .modal-icon, .modal-form-input:focus + .modal-icon{
+.modal-form-input:focus + .modal-icon{
     fill: var(--background-color-button-index);
 }
 
@@ -641,7 +641,7 @@ display: flex;
     outline: none;
 }
 
-.model-textarea:hover, .model-textarea:focus{
+.model-textarea:focus{
     border-color: var(--background-color-button-index);
 }
 
