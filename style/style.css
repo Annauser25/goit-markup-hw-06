@@ -509,6 +509,63 @@ display: flex;
     margin-bottom: 16px;
 }
 
+.item-list-footer-subscribe{
+    margin-left: auto;
+}
+
+.text-subscribe{
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-text-main); 
+    margin-bottom: 16px;
+}
+
+.form-input-footer{
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: var(--background-color-footer);
+    padding: 8px 16px;
+    width: 264px;
+    transition: border-color var(--transition);
+    color: var(--color-text-main);
+    outline: none;
+}
+
+.form-input-footer:focus{
+    border-color: var(--background-color-button-index);
+}
+
+
+.button-subscribe-footer{
+    padding: 8px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-text-main);
+    background: var(--background-color-button-index);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    transition: background-color var(--transition);
+}
+
+.button-subscribe-footer:hover, .button-subscribe-footer:focus{
+    background-color: var(--background-color-button-index-hover);
+}
+
+.box-input-button-footer{
+    display: flex;
+    gap: 24px;
+}
+
+
+/* ==============MODAL_WINDOW============== */
+
 .backdrop{
     position: fixed;
     top: 0;
@@ -694,6 +751,8 @@ display: flex;
 
 }
 
+/* ==============/MODAL_WINDOW============== */
+
 /*portfolio*/
 
 
@@ -816,6 +875,8 @@ display: flex;
     border: 1px solid #E7E9FC;
     border-top: none;
 }
+
+/*/portfolio*/
 
 
 
